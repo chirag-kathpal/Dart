@@ -32,5 +32,24 @@ void main() {
   print(i--);
 
   // ## Equality and Relational operator
+  var c = 100;
+  var d = 120;
+  print(c == d);
+  print(a != b);
+  print(c > d);
+  print(c >= d);
+  print(c < d);
+  print(c <= d);
+
+  // ## Logical Operators
+  // ### && and ||
+
+  // ## Type test operator
+  var name = "chirag";
+  var num = 4;
+  print(name is int);
+  print(num is bool);
+  // print(num is int);
   
+    
 }
