@@ -48,8 +48,13 @@ void main() {
   var name = "chirag";
   var num = 4;
   print(name is int);
-  print(num is bool);
+  print(num is! bool);
   // print(num is int);
-  
-    
+
+  // ## assignment operator
+  var e = 10;
+  e += 5;
+  e -= 2;
+  print(e);
+  e *= 3;
 }
