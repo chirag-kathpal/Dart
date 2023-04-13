@@ -5,6 +5,8 @@ void main() {
   // ## Fixed length List - Depreciated
 
   // ## Growable List
+
+  // Another way to define List 
   var lst = ['Rahul', 'Jai', 'Sumit'];
   print(lst);
   print(lst[0]);
