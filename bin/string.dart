@@ -34,4 +34,12 @@ String''';
   print(naam.contains('n'));
 
   print(naam.padLeft(10));
+  print(naam.trim()); //Remove all spaces
+  print(naam.trimLeft());
+
+  // ##Split
+  var str2 = 'Hello Dart';
+  print(str2.split(' '));
+
+  
 }
