@@ -26,4 +26,16 @@ void main() {
 
   // ## Accessing map elements
   print(m['aa']);
+
+  // ## Map properties and methods
+  var address1 = {'name': 'rahul', 'city': 'Ranchi', 'State': 'Jharkhand'};
+  print(address1);
+  print(address1.runtimeType);
+
+  print(address1.length);
+  print(address1.isEmpty);
+  print(address1.keys);
+  print(address1.containsKey('name'));
+  print(address1.containsValue('aa'));
+  
 }
