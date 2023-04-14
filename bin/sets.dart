@@ -13,7 +13,19 @@ void main() {
   print(st3.runtimeType);
 
   // ## Empty Set
-
   var st4 = <int>{};
   print(st4.runtimeType);
+
+  Set<String> st5 = Set();
+  print(st5.runtimeType);
+
+  Set<int> st6 = {};
+
+  // ## Add item to empty set
+  var p = <String>{};
+  p.add('rahul');
+  p.add('Dart');
+  print(p);
+
+  
 }
