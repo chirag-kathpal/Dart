@@ -1,5 +1,3 @@
-import 'inheritance.dart';
-
 void main() {
   // implicit interface - To achieve multiple inheritance
   var obj = Student();
