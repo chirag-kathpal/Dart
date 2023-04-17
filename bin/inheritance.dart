@@ -1,12 +1,17 @@
 void main() {
-  // Inheritance
+  // Single Inheritance
   var obj1 = Son();
   obj1.getValue(1000);
   obj1.display();
+
+  // MultiLevel inheritance
+  var obj2 = GrandSon();
+  obj2.getValue(2000);
+  obj2.disp();
 }
 
 // single level inheritance
-// Parent class or super class
+// Parent class
 class Father {
   late int money;
   getValue(m) {
@@ -17,6 +22,11 @@ class Father {
 // Child Class or sub class
 class Son extends Father {
   String car = 'Creta';
+  int b_b = 5000;
+  totalMoney() {
+    return money + b_b;
+  }
+
   display() {
     print(car);
     print(money);
@@ -24,4 +34,11 @@ class Son extends Father {
 }
 
 // multilevel
+class GrandSon extends Son {
+  String bike = 'K6';
+  disp() {
+    print(totalMoney());
+  }
+}
+
 // heirarchical
