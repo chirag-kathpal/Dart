@@ -8,6 +8,8 @@ void main() {
   var obj2 = GrandSon();
   obj2.getValue(2000);
   obj2.disp();
+
+  // hierarchical
 }
 
 // single level inheritance
@@ -42,3 +44,8 @@ class GrandSon extends Son {
 }
 
 // heirarchical
+class Daughter extends Father {
+  disp() {
+    print(money);
+  }
+}
