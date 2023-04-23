@@ -1,6 +1,9 @@
 void main() {
   'someString'.isValidEmail;
+  var digit = 1.addTen();
+  print(digit);
 }
+
 extension StringExtensions on String {
   bool get isValidEmail {
     final emailRegExp = RegExp(r"^[a-zA-Z0-9.]+@[a-zA-Z0-9]+\.[a-zA-Z]+");
