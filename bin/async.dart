@@ -1,5 +1,6 @@
-void main() async{
+void main() async {
   print(await getName());
+  // print("Hello");
 }
 
 Future<String> getName() {
@@ -8,4 +9,4 @@ Future<String> getName() {
   });
 }
 // The await keyword works only in async Function 
-// To define an async Function, add async before the function body  
+// To define an async Function, add async before the function body
