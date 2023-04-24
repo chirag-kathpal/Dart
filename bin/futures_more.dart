@@ -27,3 +27,11 @@ Future<int> printAfterTime(int seconds) async {
   print("Delayed $seconds seconds");
   return seconds;
 }
+
+// await Future.wait([
+//   printAfterDelay(1),
+//   printAfterDelay(2),
+//   printAfterDelay(3),
+//   printAfterDelay(4),
+//   printAfterDelay(5),
+// ]);
