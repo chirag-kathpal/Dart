@@ -1,4 +1,6 @@
-void main() {}
+void main() {
+  print(getName());
+}
 
 Future<String> getName() {
   return Future.delayed(Duration(seconds: 2), () {
